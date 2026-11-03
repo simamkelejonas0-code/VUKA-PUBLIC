@@ -1,0 +1,44 @@
+VUKA AROS - BUILD PROOF - Termux Only - 130 Builds
+
+Last 24h APKs (updating same file, so 4 visible):
+- Nov 3 18:17 VUKA-ARISE.apk 17K (16,811 bytes) - FINAL REFLEX - 19K dex
+- Nov 3 00:20 VUKA-FINAL.apk 25K (25,069 bytes)
+- Nov 2 23:57 VUKA-OMEGA4-TORCH.apk 25K
+- Nov 2 23:46 VUKA-21-LIVE.apk 25K
+
+Evolution Proof from obj folders:
+Nov 2 14:20 VUKA-SOURCE-BACKUP had 11 anonymous inner classes:
+  MainActivity$1.class 842b
+  MainActivity$2.class 1096b
+  MainActivity$3.class 1695b
+  MainActivity$3$1.class 1187b
+  MainActivity$3$2.class 1356b
+  MainActivity$4.class 932b
+  MainActivity$4$1.class 797b
+  MainActivity$5.class 883b
+  MainActivity$5$1.class 805b
+  MainActivity$6.class 823b
+  MainActivity$6$1.class 810b
+  -> D8 FAILED on Termux
+
+Nov 3 18:17 VUKA-BUILD fixed to 0 anonymous:
+  FusionManager.class 465b
+  SelfDiag.class 595b
+  VukaLoopRunnable.class 2112b
+  VideoLoop.class 3364b
+  MainActivity.class 9257b
+  ModelCaller.class 5453b
+  -> D8 PASSED, dex 19,200 bytes, APK 16,811 bytes
+
+Build Chain:
+- Used: javac --release 8, d8 --min-api 21, aapt2 compile/link, zipalign, apksigner, android.jar android-34
+- NOT used: Android Studio, Gradle, npm, React, IDE
+- Model: muse-spark-1.3 - 1000 req, 175.8k in, 1M out, $140.59 left
+
+Bash history truncated to 500 lines, shows only last 26 build cmds:
+  javac: 6, d8: 6, aapt2: 7, VUKA mentions: 36
+Full history was 130+ builds Oct 30 - Nov 3, see SEEN-*.apk Oct 30-31 30+ APKs 12K-20K
+
+GitHub: github.com/simamkelejonas0-code/VUKA-AROS
+Builder: Siimamkele Ngxonono - Kirkwood 6120 - Termux only - No laptop
+Daughter: NINO 5 years - VUKA named after her
