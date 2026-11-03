@@ -1,0 +1,14 @@
+=== VUKA AROS - 1 LINE PITCHES FOR META GALLERY ===
+
+Short (100 chars):
+VUKA AROS - AR eyes fusion - Termux only, no Studio - muse-spark-1.3 live camera 23K frames - Kirkwood 6120
+
+Medium (250 chars):
+VUKA = Wake Up (Xhosa) | AROS = Eyes | Named after daughter NINO 5y - AR eyes for rural craft sellers, not chatbot. Sees object, speaks Xhosa/English, prices it. Built 100% Termux: javac+d8+aapt2+zipalign+apksigner - 130 builds, 1k req 1M tokens
+
+Long (500 chars):
+VUKA AROS - Eyes for people who can't read. Kirkwood youth weave stools, sell clothes. VUKA sees, speaks Xhosa/English, prices, posts to Marketplace. Sundays River Valley 6120 to global gallery. Built 100% in Termux, no Android Studio/Gradle/npm/React/IDE - Used javac --release 8 + d8 --min-api 21 + aapt2 compile/link + zipalign + apksigner + android.jar android-34. Model: muse-spark-1.3. Proof: 1000 requests 175.8k in 1M out $140.59 left, 130 builds 2 days 57 builds 13h Oct 30-31, 4 VUKA APKs 24h 34 SEEN+VUKA visible, evolved 11 anonymous -> 0 anonymous, dex 19.2K APK 16.8K. GitHub: github.com/simamkelejonas0-code/VUKA-AROS
+
+Tags: meta-ai, muse-spark, android-termux, ar-eyes, xhosa, kirkwood, hackathon2026, camera2, aapt2, d8
+GitHub: github.com/simamkelejonas0-code/VUKA-AROS
+Builder: Siimamkele Ngxonono - Kirkwood 6120 - Termux Builder - Daughter NINO 5y

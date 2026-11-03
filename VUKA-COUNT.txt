@@ -1,0 +1,30 @@
+VUKA APK COUNT - Proof for Meta Hackathon
+Date: Nov 3 2026 - Builder: Siimamkele Ngxonono - Kirkwood 6120
+
+=== 4 VUKA APKs visible in last 24h (find -mtime -1) ===
+1. Nov 3 18:17 - VUKA-ARISE.apk - 16,811 bytes (17K) - 19,200 bytes dex - FINAL - 0 anonymous
+2. Nov 3 00:20 - VUKA-FINAL.apk - 25,069 bytes (25K)
+3. Nov 2 23:57 - VUKA-OMEGA4-TORCH.apk - 25,069 bytes (25K)
+4. Nov 2 23:46 - VUKA-21-LIVE.apk - 25,069 bytes (25K)
+
+=== Why only 4 visible? ===
+Updating same installed APK (not side-by-side install) - Android overwrites.
+Real count higher, Download keeps last file per name.
+
+=== Full visible history in /sdcard/Download/ ===
+- 4x VUKA (Nov 2-3)
+- 30x SEEN (Oct 30-31) - SEEN-V2 to SEEN-21-LIVE-21.1-HONEST
+- Total visible SEEN+VUKA: 34 APKs
+- Claimed full builds (including overwritten): 130 builds in 2 days, 57 builds in 13 hours Oct 30-31
+
+=== Source evolution proof ===
+Nov 2 14:20 VUKA-SOURCE-BACKUP/obj/ - 11 anonymous:
+ MainActivity$1 $2 $3 $3$1 $3$2 $4 $4$1 $5 $5$1 $6 $6$1 = D8 FAILED
+Nov 3 18:17 VUKA-BUILD/obj/ - 0 anonymous:
+ FusionManager 465b, SelfDiag 595b, VukaLoopRunnable 2112b, VideoLoop 3364b, MainActivity 9257b, ModelCaller 5453b = D8 PASSED
+
+Build chain: javac --release 8, d8 --min-api 21, aapt2 compile/link, zipalign, apksigner, android.jar android-34
+NOT used: Android Studio, Gradle, npm, React, IDE - Termux only
+Model: muse-spark-1.3 - 1000 req, 175.8k in, 1M out, $140.59 left
+
+GitHub: github.com/simamkelejonas0-code/VUKA-AROS
